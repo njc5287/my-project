@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.Book {
+  border: 1px solid black;
+  font-size: 20px;
+  color: blue;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

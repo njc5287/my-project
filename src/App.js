@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Movie from './Movie';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Movie.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-lg">
+      <h3>List of Movies</h3>
+      <div className="row">
+      <div className="col-lg-4 col-md-7 col-sm-3">
+        <Movie />
+        </div>
+      <div className="col-lg-4 col-md-7 col-sm-3">
+        <Movie />
+        </div>
+      <div className="col-lg-4 col-md-7 col-sm-3">
+      <Movie />
     </div>
+    </div>
+    </div>
+  
   );
-}
+};
 
 export default App;

@@ -1,0 +1,18 @@
+.greybox{
+    padding: 10px;
+    margin: 10px;
+    background-color: gainsboro;
+    border: 1px solid black;
+
+}
+
+.movie-title{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.movie-director{
+    font-weight: bold;
+    color: brown;
+    font-size: medium;
+}
